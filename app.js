@@ -16,7 +16,7 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
 // Routes
-// Sometimes I would use (app) but not today.
+// Sometimes I would use (app) but didn't feel like it.
 app.use("/math", mathRoutes);
 app.use("/game", gameRoutes);
 app.get("/", function(req,res) {
