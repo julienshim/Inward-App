@@ -27,7 +27,8 @@ function Pipe() {
     }
 
     this.pass = function(bird) {
-        // Accounting + 20 for width of pipe, as a touched bird is +1
+        // Accounting +20 for width of pipe bird my clear to score++
+        // Otherwise, a bird touching a pipe would score++
         if(bird.x > (this.x + 20) && !this.passed) {
             this.passed = true;
             return true;
