@@ -27,7 +27,7 @@ function draw() {
     pipes.push(new Pipe());
   }
 
-  for (var i = pipes.length-1; i >= 0; i--) {
+  for (let i = pipes.length-1; i >= 0; i--) {
 
     if (pipes[i].pass(bird)) {
       score++;

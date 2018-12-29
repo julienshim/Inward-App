@@ -12,7 +12,7 @@ const onSubmit = () => {
     const calculation = calcForm.value.trim();
     let calculationSplit;
     let formData = "";
-    let regCalc = new RegExp(/^(\d+[-+/*]\d+)$/);
+    const regCalc = new RegExp(/^(\d+[-+/*]\d+)$/);
     errorMsg.innerText = "";
 
     if (!regCalc.test(calculation)) {
@@ -44,6 +44,5 @@ const mathCall = (URI) => {
     xhr.onload = function() {
         let response = JSON.parse(xhr.response);
         answer.innerHTML = `Answer is: <span id="answer">${response.result}</span>`;
-        console.log(response.result);
     }
 }

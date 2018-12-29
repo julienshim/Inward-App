@@ -1,7 +1,7 @@
 function Pipe() {
 
-    var spacing = random(50, height / 3);
-    var centerY = random(spacing, height-spacing);
+    const spacing = random(50, height / 3);
+    const centerY = random(spacing, height-spacing);
 
     this.top = centerY - spacing / 2;
     this.bottom = height - (centerY + spacing / 2);
