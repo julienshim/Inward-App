@@ -19,5 +19,5 @@ From the root directory of Inward-App, run `node app.js`. Visit the localhost ad
 
 ## Notes
 
-* Nav list was created for easy access of `/`, `/math`, and `/game' paths.
-* Game utilizes 'software sketchbook' P5.js
+* Nav list was created for easy access of /, /math, and `/game' paths.
+* Game ultilized 'software sketchbook' p5.js
