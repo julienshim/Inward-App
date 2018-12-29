@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inward App</title>
+</head>
+<body>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/math">Math</a></li>
+                <li><a href="/game">Game</a></li>
+            </ul>
+            </nav>
+            <header>
+                <h1>This is the math page.</h1>
+            </header>
+            <main>
+                <form action="/action_page.php">
+                    Enter rudimentary arithmetic problem (e.g. 1+1, 2-3, 3*3, 4/4): <br>
+                    <input type="text" id="calcForm"><span id="errorMsg" style="color: red;"></span>
+                    <br>
+                    <input type="submit" id="calcButton" value="Calculate">
+                </form> 
+                <p id="answer"></p>
+            </main>
+    
+    <script src="assets/javascript/math.js"></script>
+</body>
+</html>
