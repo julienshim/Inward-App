@@ -5,7 +5,7 @@ let maxScore = 0;
 let isGameOver = false;
 
 // maxScore Local Storage
-if (localStorage.getItem === null) {
+if (localStorage.getItem('maxScore') === null) {
   maxScore = 0;
   localStorage.setItem('maxScore', 0);
 } else {
